@@ -1,4 +1,5 @@
 streamlit
-chromadb
-sentence-transformers
 PyMuPDF
+sentence-transformers
+chromadb==0.4.22
+protobuf==3.20.3
