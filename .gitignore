@@ -1,3 +1,5 @@
 askmypdf/venv/
 __pycache__/
 *.pyc
+*.pkl
+.DS_Store
