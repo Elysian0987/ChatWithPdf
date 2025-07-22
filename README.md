@@ -1,25 +1,35 @@
 # ChatWithPdf
 
-Solution: Reactivate Your Virtual Environment
-Go to your project folder if you're not already there:
+ChatWithPdf is a Streamlit app that lets you ask questions about PDF content using natural language. It uses `sentence-transformers` for semantic search.
 
-bash
-Copy
-Edit
-cd C:\Users\samru\Documents\GitHub\ChatWithPdf\askmypdf
-Run this to activate your venv:
+## Setup
 
-bash
-Copy
-Edit
-venv\Scripts\activate
-You’ll know it's active when you see (venv) in the terminal — like before.
+1. Clone the repo:
+```bash
+   git clone https://github.com/your-username/ChatWithPdf.git
+   cd ChatWithPdf/askmypdf
+```
 
-Now try running Streamlit again:
+2. Activate your virtual environment:
+   ```bash
+   venv\Scripts\activate
+   ```
 
-bash
-Copy
-Edit
+3. Install dependencies:
+
+   ```bash
+   pip install sentence-transformers streamlit
+   ```
+
+## Run the App
+
+```bash
 streamlit run app.py
+```
 
-pip install sentence-transformers
+## Requirements
+
+* Python 3.8+
+* sentence-transformers
+* streamlit
+* PyPDF2 or similar for PDF parsing
