@@ -6,7 +6,7 @@ ChatWithPdf is a Streamlit app that lets you ask questions about PDF content usi
 
 1. Clone the repo:
 ```bash
-   git clone https://github.com/your-username/ChatWithPdf.git
+   git clone https://github.com/Elysian0987/ChatWithPdf.git
    cd ChatWithPdf/askmypdf
 ```
 
